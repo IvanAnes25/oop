@@ -1,0 +1,107 @@
+*{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(b.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.loginForm{
+    width: 400px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    background-blend-mode: normal;
+
+
+}
+.username{
+    margin-left: 110px;
+    margin-top: 35px;
+    background-color: rgb(45, 39, 37);
+    border: rgb(31, 12, 5);
+    border-radius: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 25px;
+
+
+}
+.username:hover{
+    background-color: rgb(30, 23, 9);
+    color: white;
+}
+.username:active{
+    opacity: .4s ease;
+    
+
+}
+.password{
+    margin-left: 110px;
+    margin-top: 5px;
+    background-color: rgb(45, 39, 37);
+    border: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    width: 180px;
+    height: 28px;
+    padding-top: 0px;
+    padding-left: 5px;
+}
+.password:hover{
+    background-color: rgb(30, 23, 9);
+    color: white;
+    
+}
+
+.password:active{
+    opacity: .4s ease;
+    
+}
+.login{
+    background-color: orange;
+    color: white;
+    font-weight: solid;
+    margin-left: 155px;
+    margin-top: 80px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.login:hover{
+    background-color: rgb(148, 108, 32);
+    color: rgb(95, 32, 14);
+}
+.login:active{
+    opacity: 0.4s ease;
+    color: rgb(249, 225, 14);
+}
+.Fill-up{
+    
+    margin-left: 140px;
+    padding-top: 40px;
+    color: rgb(215, 74, 22)
+}
+.name{
+    color: aliceblue;
+    font-family: cursive;
+    font-weight: solid;
+    font-size: 70px;
+    margin-left: 90px;
+    padding-top: 100px ;
+}
+.longtext{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
